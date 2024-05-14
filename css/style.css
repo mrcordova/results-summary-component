@@ -2,3 +2,7 @@ html, body {
     height: 100%;
 }
 
+body {
+    display: grid;
+    grid-template: 1fr 20px / 1fr;
+}
