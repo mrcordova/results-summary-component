@@ -28,7 +28,7 @@ body {
     font-size: var(--body-font-size);
     display: grid;
     grid-template: 1fr 20px / 1fr;
-    
+    background-color: var(--white);
     min-width: 0;
 }
 
@@ -45,6 +45,7 @@ main {
     justify-content: space-around;
     align-items: center;
     min-width: 0;
+    background: linear-gradient(var(--light-slate-blue) , var(--light-royal-blue));
 }
 
 .summary-con {
