@@ -30,6 +30,7 @@ body {
     grid-template: 1fr 20px / 1fr;
     background-color: var(--white);
     min-width: 0;
+    
 }
 
 #continue-btn {
@@ -144,17 +145,31 @@ main {
 }
 
 @media (min-width: 760px) {
+    body {
+        justify-items: center;
+        grid-template: 20% 1fr 20px / 1fr;
+        /* align-items: center; */
+    }
     main {
         flex-direction: row;
         /* box-shadow: 0 0 15%; */
+        max-block-size: 40rem;
+        max-inline-size: 70rem;
+       grid-row: 2;
     }
 
     .summary-con {
         border-radius: 30px;
+        flex: 1;
     }
 
     .results-con {
         border-radius: 30px;
+
+        flex: 1;
+    }
+    footer {
+        grid-row: 3;
     }
 }
 .hanken-grotesk-500{
