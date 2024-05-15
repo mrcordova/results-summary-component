@@ -160,11 +160,10 @@ main {
     body {
         justify-items: center;
         grid-template: minmax(0, 20%) 1fr 20px / 1fr;
-        /* align-items: center; */
+        
     }
     main {
         flex-direction: row;
-        /* box-shadow: 0 0 15%; */
         max-block-size: 40rem;
         max-inline-size: 70rem;
        grid-row: 2;
