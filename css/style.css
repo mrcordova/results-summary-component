@@ -99,7 +99,9 @@ main {
 
 .icon-con {
     display: flex;
-   
+}
+.icon-con>p {
+    padding-inline-start: 1rem;
 }
 
 
