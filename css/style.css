@@ -81,7 +81,8 @@ main {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
-    
+    gap: 1rem;
+    justify-content: space-around;
 }
 .summary-title {
 
@@ -90,6 +91,15 @@ main {
 .categories {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   
+    
+}
+
+.icon-con {
+    display: flex;
+   
 }
 
 
