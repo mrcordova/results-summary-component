@@ -40,11 +40,16 @@ body {
     padding-block: 1rem;
     border-radius: 330px;
 }
+#continue-btn:is(:hover, :focus) {
+    cursor: pointer;
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
 main {
     display: flex;
     flex-direction: column;
     min-width: 0;
 }
+
 
 .final-score-con {
     text-align: center;
@@ -62,6 +67,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
+    
     justify-content: space-around;
     align-items: center;
     min-width: 0;
@@ -91,6 +97,7 @@ main {
     padding: 1.5rem;
     gap: 1rem;
     justify-content: space-around;
+    
 }
 .summary-title {
 
@@ -156,11 +163,19 @@ main {
         max-block-size: 40rem;
         max-inline-size: 70rem;
        grid-row: 2;
+       background-color: var(--white);
+        box-shadow: 10px 10px 50px 0;
+        border-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
     }
 
     .summary-con {
         border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
         flex: 1;
+       
     }
 
     .results-con {
