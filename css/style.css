@@ -81,9 +81,16 @@ main {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
+    justify-content: space-evenly;
+}
+.summary-title {
+
 }
 
-
+.categories {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 .hanken-grotesk-500{
