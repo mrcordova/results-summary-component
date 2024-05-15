@@ -81,6 +81,7 @@ main {
     color: var(--light-gray);
     text-align: center;
     line-height: 1.25;
+    font-size: clamp(1.2rem, 3vw + 0.20rem, 2.2rem)
 }
 .final-score-title {
     color: var(--white);
