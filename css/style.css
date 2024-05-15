@@ -54,13 +54,15 @@ main {
 .final-score-con {
     text-align: center;
     background: linear-gradient( var(--violet-blue), var(--persian-blue));
-    padding: clamp(2rem, 6vw + 0.5rem, 6rem);
+    padding: clamp(2.5rem, 4vw + 0.15rem, 7rem);
     border-radius: 400px;
     color: var(--light-gray);
+    
 }
 .final-score-con>h1 {
-    font-size: 4rem;
+    font-size: clamp(4rem,  5vw + 0.25rem , 6rem);
     color: var(--white);
+
 }
 
 .results-con {
