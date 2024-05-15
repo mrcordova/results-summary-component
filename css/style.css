@@ -32,6 +32,13 @@ body {
     min-width: 0;
 }
 
+#continue-btn {
+    text-align: center;
+    background-color: var(--dark-gray-blue);
+    color: var(--white);
+    padding-block: 1rem;
+    border-radius: 330px;
+}
 main {
     display: flex;
     flex-direction: column;
