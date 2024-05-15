@@ -103,7 +103,7 @@ main {
     
 }
 .summary-title {
-
+    font-size: clamp(1.5rem, 3vw + 0.2rem , 2rem);
 }
 
 .categories {
