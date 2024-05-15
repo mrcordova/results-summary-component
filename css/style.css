@@ -110,7 +110,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    
+    padding-inline: 1rem;
+    padding-block: clamp(1rem, 1.5vw + 0.1rem, 1.5rem);
    border-radius: 10px;
     
 }
@@ -157,7 +159,7 @@ main {
 @media (min-width: 760px) {
     body {
         justify-items: center;
-        grid-template: 20% 1fr 20px / 1fr;
+        grid-template: minmax(0, 20%) 1fr 20px / 1fr;
         /* align-items: center; */
     }
     main {
